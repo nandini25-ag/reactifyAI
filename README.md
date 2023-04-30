@@ -1,4 +1,4 @@
-# PicPhrase
+# ReactifyAI
 
 Innovative Conversations: Powered by OpenAI's Cutting-edge API.
 
@@ -9,7 +9,7 @@ Innovative Conversations: Powered by OpenAI's Cutting-edge API.
 
 
 ## ScreenShot
-<img src="https://user-images.githubusercontent.com/46851135/232449785-1c9789b2-f99e-4c3f-86e2-f53697bc8b28.jpg"  width="300" >
+
 
 
  ## Inspiration
