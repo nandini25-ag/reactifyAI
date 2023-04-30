@@ -41,7 +41,11 @@ const Button_1 = props => {
         onPress={ props.onPress}
         disabled={props.disabled}
         >
-        <Text style={{  alignItems: 'center', fontSize:16, color: '#ffffff' }}>{props.title}</Text>
+        <Text style={{  
+          alignItems: 'center',
+          fontFamily: 'OpenSans_600SemiBold',
+         fontSize:16, color: '#ffffff' 
+         }}>{props.title}</Text>
       </Pressable>
     </Animated.View>
   )

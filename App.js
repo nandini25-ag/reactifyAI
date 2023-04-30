@@ -1,3 +1,4 @@
+import {LogBox} from 'react-native';
 import { getApp, initializeApp } from 'firebase/app';
 import firebaseConfig from './src/firebase/firebaseConfig';
 import Home from "./src/navigation/navigation";
@@ -33,6 +34,11 @@ try {
 }
 
 const app = initializeApp(firebaseConfig)
+
+// LogBox.ignoreAllLogs(true)
+LogBox.ignoreLogs([
+  "expo-app-loading is deprecated in favor of expo-splash-screen"
+]);
 
 
 export default function App() {
